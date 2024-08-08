@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, *::before, *::after{
+    outline: 0;
+    transition: all .35s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+html, body{
+    overflow-x: hidden;
+}
+.shad{
+    box-shadow: 0 0 15px -1px #f1f3f2;
+}

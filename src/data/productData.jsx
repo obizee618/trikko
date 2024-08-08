@@ -1,0 +1,60 @@
+import { bag_brickred, bag_cream, bag_flowerbag, bag_girlie, bag_louis, bag_paperbag, bg_ladyakimbo } from "../assets/images";
+
+export const productData = [
+    {
+        id: "656430",
+        productname: "Small Shoulder Bag",
+        price: 35000,
+        image: bag_brickred,
+        category: "bag",
+        collection: "spring",
+    },
+    {
+        id: "656431",
+        productname: "Andiamo Totte Bag",
+        price: 46999,
+        image: bag_cream,
+        category: "bag",
+        collection: "featured",
+    },
+    {
+        id: "656432",
+        productname: "Gucci Female Glasses",
+        price: 58650,
+        image: bg_ladyakimbo,
+        category: "sunglasses",
+        collection: "winter",
+    },
+    {
+        id: "656433",
+        productname: "Louis Vuitton Sack",
+        price: 46500,
+        image: bag_louis,
+        category: "accessories",
+        collection: "featured",
+    },
+    {
+        id: "656434",
+        productname: "Candie Jodie Shoes",
+        price: 73520,
+        image: bag_girlie,
+        category: "shoes",
+        collection: "spring",
+    },
+    {
+        id: "656435",
+        productname: "Italian Hand-stitched Bag",
+        price: 23479,
+        image: bag_flowerbag,
+        category: "bag",
+        collection: "featured",
+    },
+    {
+        id: "656436",
+        productname: "Spanish Rouge Carrier",
+        price: 23479,
+        image: bag_paperbag,
+        category: "accessories",
+        collection: "winter",
+    },
+]
